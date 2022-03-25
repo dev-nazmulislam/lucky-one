@@ -1,0 +1,86 @@
+[
+  {
+    "Id": 1,
+    "courseName": "Webdevelopment",
+    "description": "Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript. Responsive Web Design is used in all types of modern web development.",
+    "price": 5000,
+    "Url": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png"
+  },
+  {
+    "Id": 2,
+    "courseName": "Graphich Design",
+    "description": "Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience.",
+    "price": 4000,
+    "Url": "https://sgp1.digitaloceanspaces.com/cosmosgroup/news/1071218_Graphic-Design.jpg"
+  },
+  {
+    "Id": 3,
+    "courseName": "Data Scince",
+    "description": "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from noisy, structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains.",
+    "price": 15000,
+    "Url": "https://www.dataquest.io/wp-content/uploads/2019/05/what-is-data-science-1.jpg"
+  },
+  {
+    "Id": 4,
+    "courseName": "Mobile Development",
+    "description": "Mobile application development is the process to making software for smartphones and digital assistants, most commonly for Android and iOS.",
+    "price": 10000,
+    "Url": "https://saigontechnology.com/assets/media/Blog/typical-process-for-a-successful-mobile-development.jpeg"
+  },
+  {
+    "Id": 5,
+    "courseName": "Game Development",
+    "description": "Game Development is the art of creating games and describes the design, development and release of a game. It may involve concept generation, design, build, test and release. While you create a game, it is important to think about the game mechanics, rewards, player engagement and level design.",
+    "price": 20000,
+    "Url": "https://www.androidauthority.com/wp-content/uploads/2019/11/Game-design-and-development-vector-iso.jpg"
+  },
+  {
+    "Id": 6,
+    "courseName": "Database Design",
+    "description": "Database design is the organisation of data according to a database model. The designer determines what data must be stored and how the data elements interrelate. With this information, they can begin to fit the data to the database model.",
+    "price": 18000,
+    "Url": "https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/777046/0712-Bad_Practices_in_Database_Design_-_Are_You_Making_These_Mistakes_Dan_Social-754bc73011e057dc76e55a44a954e0c3.png"
+  },
+  {
+    "Id": 7,
+    "courseName": "Software Development",
+    "description": "Software development refers to a set of computer science activities dedicated to the process of creating, designing, deploying and supporting software. Software itself is the set of instructions or programs that tell a computer what to do. It is independent of hardware and makes computers programmable.",
+    "price": 22000,
+    "Url": "https://blog.planview.com/wp-content/uploads/2020/01/Top-6-Software-Development-Methodologies.jpg"
+  },
+  {
+    "Id": 8,
+    "courseName": "Degital Marketing",
+    "description": "Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication. This includes not only email, social media, and web-based advertising, but also text and multimedia messages as a marketing channel.",
+    "price": 2000,
+    "Url": "https://99designs-blog.imgix.net/blog/wp-content/uploads/2021/12/Digital-marketing-trends-2022.jpg?auto=format&q=60&w=1860&h=1395&fit=crop&crop=faces"
+  },
+  {
+    "Id": 9,
+    "courseName": "Facebook Marketing",
+    "description": "Find the best Facebook marketing services you need to help you successfully meet your project planning goals and deadline.",
+    "price": 2500,
+    "Url": "https://neilpatel.com/wp-content/uploads/2021/06/1082251_Facebook-Marketing_2_060321-1-1.jpg"
+  },
+  {
+    "Id": 10,
+    "courseName": "SEO",
+    "description": "SEO stands for search engine optimization. SEO is the process of taking steps to help a website or piece of content rank higher on Google.",
+    "price": 7000,
+    "Url": "https://www.oberlo.com/media/1603954182-seo-article-header.png"
+  },
+  {
+    "Id": 11,
+    "courseName": "Business Communication",
+    "description": "Business communication is the process of sharing information between people within and outside a company. Effective business communication is how employees and management interact to reach organizational goals.",
+    "price": 14000,
+    "Url": "https://leverageedu.com/blog/wp-content/uploads/2020/06/Types-of-Business-Communication.jpg"
+  },
+  {
+    "Id": 12,
+    "courseName": "Degital Photography",
+    "description": "Digital photography uses cameras containing arrays of electronic photodetectors to produce images focused by a lens, as opposed to an exposure on photographic film. The captured images are digitized and stored as a computer file ready for further digital processing, viewing, electronic publishing, or digital printing.",
+    "price": 16000,
+    "Url": "https://jeskabaileyphotography.com/wp-content/uploads/2019/05/Digital-Photography01.jpg"
+  }
+]
