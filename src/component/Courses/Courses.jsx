@@ -45,7 +45,7 @@ const Courses = () => {
       </h2>
       <div className="row m-0">
         <div className="col-md-9">
-          <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mx-2">
+          <div className="row cart-style row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mx-2">
             {courses.map((course) => (
               <Course
                 key={course.Id}
