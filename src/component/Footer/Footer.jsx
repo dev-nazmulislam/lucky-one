@@ -91,7 +91,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="my-3 text-center">
+        <p className="my-2 text-center">
           &copy; {new Date().getFullYear()} Copyright Resarve for Nr Tech
         </p>
       </div>
