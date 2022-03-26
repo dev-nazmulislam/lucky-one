@@ -2,7 +2,7 @@ import React from "react";
 import SelectItem from "../SelectItem/SelectItem";
 import "./Cart.css";
 
-const Cart = ({ cart, dleletCart }) => {
+const Cart = ({ cart, dleletCart, clearAll, choseRandom }) => {
   const cartCount = cart.length;
   return (
     <div className="cart">
@@ -14,11 +14,23 @@ const Cart = ({ cart, dleletCart }) => {
             cart.map((item) => (
               <SelectItem key={item.Id} item={item} dleletCart={dleletCart} />
             )) &&
-            alert("alrady 4 item selected")
+            alert("already 4 item selected")
           : cart.map((item) => (
               <SelectItem key={item.Id} item={item} dleletCart={dleletCart} />
             ))}
       </div>
+      <button
+        onClick={() => choseRandom()}
+        className="chose-btn p-1 rounded fs-4 border-0 w-100 my-2"
+      >
+        Select one
+      </button>
+      <button
+        onClick={() => clearAll()}
+        className="chose-btn p-1 rounded fs-4 border-0 w-100 my-2"
+      >
+        Chose again
+      </button>
     </div>
   );
 };

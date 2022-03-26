@@ -3,3 +3,9 @@
   top: 50px;
   padding: 20px 0px;
 }
+.chose-btn {
+  background-color: rgb(216, 189, 139);
+}
+.chose-btn:hover {
+  background-color: rgb(177, 150, 98);
+}

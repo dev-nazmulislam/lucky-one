@@ -14,14 +14,27 @@ const Courses = () => {
       .then((data) => setCourses(data));
   }, []);
   const handleAddToCart = (product) => {
-    const newCart = [...cart, product];
-    setCart(newCart);
+    const coursIdExist = cart.some((c) => c.Id === product.Id);
+    if (!coursIdExist) {
+      const newCart = [...cart, product];
+      setCart(newCart);
+    } else {
+      alert("already added in cart");
+    }
   };
   const dleletCart = (id) => {
     const remainigCart = cart.filter((item) => item.Id !== id);
     setCart(remainigCart);
   };
-
+  const clearAll = () => {
+    setCart([]);
+  };
+  const choseRandom = () => {
+    if (cart.length !== 0) {
+      const randomNumber = Math.floor(Math.random() * cart.length);
+      setCart([cart[randomNumber]]);
+    }
+  };
   return (
     <div className="bg-light">
       <h2 className="text-success text-center pt-5">
@@ -40,7 +53,12 @@ const Courses = () => {
           </div>
         </div>
         <div className="col-md-3 left-cart">
-          <Cart dleletCart={dleletCart} cart={cart} />
+          <Cart
+            dleletCart={dleletCart}
+            clearAll={clearAll}
+            choseRandom={choseRandom}
+            cart={cart}
+          />
         </div>
       </div>
     </div>
