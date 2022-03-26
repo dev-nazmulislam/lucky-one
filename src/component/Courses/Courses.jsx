@@ -5,6 +5,7 @@ import Course from "../Corese/Course";
 import "./Courses.css";
 
 const Courses = () => {
+  // Store Fake Data in state
   const [courses, setCourses] = useState([]);
   const [cart, setCart] = useState([]);
 
@@ -13,6 +14,7 @@ const Courses = () => {
       .then((res) => res.json())
       .then((data) => setCourses(data));
   }, []);
+
   const handleAddToCart = (product) => {
     const coursIdExist = cart.some((c) => c.Id === product.Id);
     if (!coursIdExist) {
@@ -32,6 +34,7 @@ const Courses = () => {
   const choseRandom = () => {
     if (cart.length !== 0) {
       const randomNumber = Math.floor(Math.random() * cart.length);
+
       setCart([cart[randomNumber]]);
     }
   };

@@ -23,7 +23,7 @@ const Cart = ({ cart, dleletCart, clearAll, choseRandom }) => {
         onClick={() => choseRandom()}
         className="chose-btn p-1 rounded fs-4 border-0 w-100 my-2"
       >
-        Select one
+        Select one For me
       </button>
       <button
         onClick={() => clearAll()}
