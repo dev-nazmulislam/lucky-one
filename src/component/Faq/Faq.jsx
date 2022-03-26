@@ -13,13 +13,20 @@ const Faq = () => {
             <h3>How does React Work?</h3>
           </Accordion.Header>
           <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            <h4>What is react?</h4>
+            <p>
+              React is a flexible, efficient, open-sourse JavaScript library for
+              building user interfaces. React allows developers to create large
+              web applications that can change data, without reloading the page.
+              The main purpose of React is to be fast, scalable, and simple. It
+              works only on user interfaces in the application.
+            </p>
+            <h4>How does react work?</h4>
+            <p>
+              React basically maintains a tree for you. React allows you to
+              effectively re-construct your DOM in JavaScript and push only
+              those changes to the DOM which have actually occurred.
+            </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
