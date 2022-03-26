@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./Header.css";
+import { BsCartCheck } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -14,6 +15,10 @@ const Header = () => {
             <Nav.Link href="#courses">Courses</Nav.Link>
             <Nav.Link href="#blogs">Blogs</Nav.Link>
             <Nav.Link href="#contact">Contact Us</Nav.Link>
+            <Nav.Link href="#cart">
+              {<BsCartCheck className="text-white fs-5" />}
+              <span class="badge text-danger bg-secondary">4</span>
+            </Nav.Link>
             <Nav.Link href="#login">Log in</Nav.Link>
           </Nav>
         </Navbar.Collapse>

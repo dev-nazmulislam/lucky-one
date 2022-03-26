@@ -34,7 +34,6 @@ const Courses = () => {
   const choseRandom = () => {
     if (cart.length !== 0) {
       const randomNumber = Math.floor(Math.random() * cart.length);
-
       setCart([cart[randomNumber]]);
     }
   };
